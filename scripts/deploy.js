@@ -5,7 +5,7 @@ async function main() {
   const connection = await hre.network.connect();
 
   // 2. Ambil "cetakan" kontrak kita
-  const Counter = await connection.ethers.getContractFactory("Counter");
+  const Counter = await connection.ethers.getContractFactory("CounterPro");
 
   // 3. Mulai proses deploy
   console.log("Deploying Counter Contract...");
